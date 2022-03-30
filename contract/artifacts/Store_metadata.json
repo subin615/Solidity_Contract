@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/SimpleStore.sol": "Store"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/SimpleStore.sol": {
+			"keccak256": "0xcd489c1ef1475fac0535d0abe369fad8552ccf20c83fda67532f6a4042fe9b38",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ac66ce3134b7363c23cabfc82bb26b94a2952610c8701ebaab7d5e01e4f35b8",
+				"dweb:/ipfs/Qmbeex6LbiFzyepAAmMbVB6LyTRBEFVMS8iMbrzbJ7Rcmd"
+			]
+		}
+	},
+	"version": 1
+}
