@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addAmount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getAmount",
 				"outputs": [
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"contract/SimpleStore.sol": {
-			"keccak256": "0xcd489c1ef1475fac0535d0abe369fad8552ccf20c83fda67532f6a4042fe9b38",
+			"keccak256": "0x790a9a746806da99493317212f86b3730cafef9372016e05efc001af90580b82",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0ac66ce3134b7363c23cabfc82bb26b94a2952610c8701ebaab7d5e01e4f35b8",
-				"dweb:/ipfs/Qmbeex6LbiFzyepAAmMbVB6LyTRBEFVMS8iMbrzbJ7Rcmd"
+				"bzz-raw://e55a954c61c3e4b9b2bbb7edc5f0853b3589927c89851e45bb90519e89042dc0",
+				"dweb:/ipfs/Qmd1DCSRSqBS1xW6h2wL868LdP6uidPwHSQFi2oDvSDXsN"
 			]
 		}
 	},

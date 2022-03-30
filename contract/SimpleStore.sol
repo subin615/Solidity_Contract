@@ -7,4 +7,8 @@ contract Store {
     function getAmount() public view returns (uint) {
         return amount;
     }
+
+    function addAmount(uint _amount) public {
+        amount += _amount;
+    }
 }
