@@ -17,7 +17,12 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "totalBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numberOfPayments",
 						"type": "uint256"
 					}
 				],
@@ -104,11 +109,11 @@
 	},
 	"sources": {
 		"contract/SimpleMappingStruct.sol": {
-			"keccak256": "0x466c77d404d1c81659e4e016f1615e7a58b7a9f794ca3e14053cbd543c10b607",
+			"keccak256": "0x5bca955d50eed39ce93093af6f03756e11577848dce46b0ecf676fdb018128ca",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://41588183c9a2b360b9944e0b474fc6ab632f332ce28e7b185e706d777270f558",
-				"dweb:/ipfs/QmZfkUWcEYMSfTvce3AYGZQwgBNvzGd7u8KmmGh6ur9QAs"
+				"bzz-raw://91bb33f309b971f49896ea567719eda3bbd396fc236826714d4137ce30537cb0",
+				"dweb:/ipfs/QmRM4HiSB7un67Vw7q4PVvXCXt4Jouw7UE8jDQv8fv4gS2"
 			]
 		}
 	},
