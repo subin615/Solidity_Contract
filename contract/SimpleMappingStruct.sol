@@ -19,14 +19,16 @@ contract SimpleMappingStruct {
     so this balanceReceived form - 
 
     [
-        {
-            totalBalance,
-            numberOfPayments,
-            payments:{
-                amount,
-                timeStamp
+        address will be the index of the Balance object
+            {
+                totalBalance,
+                numberOfPayments,
+                payments:[{
+                    amount,
+                    timeStamp
+                }]
             }
-        }
+        
     ]
     */
 
